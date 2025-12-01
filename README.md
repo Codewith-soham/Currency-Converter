@@ -1,16 +1,16 @@
-# React + Vite
+This is a simple React project built while learning the fundamentals of React development.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Currency Converter is a web application that allows users to convert an amount from one currency to another in real time.
+While building this project, I learned:
 
-Currently, two official plugins are available:
+✔️ How to create and reuse React components
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✔️ How to build custom hooks
 
-## React Compiler
+✔️ How to manage state using useState
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✔️ How to fetch data from an API
 
-## Expanding the ESLint configuration
+✔️ How to apply the fetched currency values and convert them using simple math
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+An external currency API is used to fetch the latest exchange rates, which are then used to calculate the converted amount.
